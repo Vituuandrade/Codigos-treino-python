@@ -1,0 +1,13 @@
+y,x,z=(input()).split()
+y=int(y)
+x=int(x)
+z=int(z)
+w=(y*x)
+z=(z+1)
+if w>=z:
+ print("S")
+else:
+ print("N")
+
+
+

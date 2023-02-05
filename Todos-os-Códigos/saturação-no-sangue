@@ -1,0 +1,10 @@
+nome,saturacao = input().split()
+saturacao=int(saturacao)
+while nome!=("#") and saturacao != 0:
+  if saturacao>=90:
+    print(nome, "Alta")
+  elif saturacao < 90:
+    print(nome, "Internar")
+  nome,saturacao = input().split()
+  saturacao=int(saturacao)
+  

@@ -1,0 +1,13 @@
+N=int(input())
+esferas=[int(x) for x in input().split()]
+lista_esferas=[1,2,3,4,5,6,7]
+lista_comp=[]
+for y in lista_esferas:
+  if int(y) in esferas:
+   lista_comp.append(y)
+print(*lista_comp)
+if len(lista_comp)==7:
+ print("Saia Shenlong e realize o meu desejo")
+ 
+else:
+ print("Nao encontramos todas")

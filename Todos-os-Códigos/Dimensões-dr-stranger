@@ -1,0 +1,12 @@
+dimensao=int(input())
+u=[int(i) for i in input().split()]
+v=[int(i) for i in input().split()]
+D=[int(i) for i in input().split()]
+x=[0]*dimensao
+
+for i in range (dimensao):
+  x[i]=u[i] + v[i]
+if x==D:
+  print("OK")
+else:
+  print("NOPE :(")

@@ -1,0 +1,27 @@
+num_c = int(input())
+var = (input().split())
+caos = (input())
+l = False
+
+if caos in var:
+  print(caos)
+else:
+  print(-1)
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-
+
+
+num_c = int(input())
+var = (input().split())
+caos = (input())
+l = False
+
+for i in range(num_c):
+  if caos==var[i]:
+    l = True
+    print(caos)
+    break
+if not l:
+  l=False
+  print("-1")

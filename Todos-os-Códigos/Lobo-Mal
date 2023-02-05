@@ -1,0 +1,19 @@
+t=input()
+t=int(t)
+
+d_t=t//3
+r_a=t%3
+
+if r_a==1:
+ print("Chapeuzinho Vermelho",d_t+1)
+ print("Vovozinha",d_t)
+ print("Lobo Mau",d_t)
+elif r_a==2:
+ print("Chapeuzinho Vermelho",d_t+1)
+ print("Vovozinha",d_t+1)
+ print("Lobo Mau",d_t)
+else:
+ print("Chapeuzinho Vermelho",d_t)
+ print("Vovozinha",d_t)
+ print("Lobo Mau",d_t)
+

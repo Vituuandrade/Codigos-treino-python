@@ -1,0 +1,17 @@
+a,d,p=input().split()
+a=int(a)
+d=int(d)
+p=int(p)
+f=a+d+p
+c=int(f*100)//110
+
+if c>=(0) and c<=(50):
+ print("Seu pokemon nao fara progresso em batalhas")
+elif c>=(51) and c<=(66):
+ print("Seu pokemon esta acima da media")
+elif c>=(67) and c<=(79):
+ print("Seu pokemon certamente me chamou atencao")
+elif c>=(80) and c<=(100):
+ print("Seu pokemon e uma maravilha")
+elif c>100:
+ print("Hum, parece que houve um erro")

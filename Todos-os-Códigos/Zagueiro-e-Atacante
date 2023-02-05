@@ -1,0 +1,11 @@
+zag,gol=input().split()
+jogz,jogg=input().split()
+
+if zag==jogz and gol!=jogg:
+ print("Driblado")
+ print("...e o goleiro pega")
+elif zag==jogz and gol==jogg:
+ print("Driblado")
+ print("Gol")
+elif zag!=jogz:
+ print("Bloqueado")

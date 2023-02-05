@@ -1,0 +1,22 @@
+l1,p1=(input()).split()
+l2,p2=(input()).split()
+l3,p3=(input()).split()
+l1=int(l1)
+l2=int(l2)
+l3=int(l3)
+p1=int(p1)
+p2=int(p2)
+p3=int(p3)
+l=(l1+l2+l3)
+p=(p1+p2+p3)
+
+if l>p:
+ print("Lucas")
+if p>l:
+ print("Pedro")
+if l==p:
+ print("Empate")
+
+
+
+

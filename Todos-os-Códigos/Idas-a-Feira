@@ -1,0 +1,10 @@
+idas=int(input())
+
+for vez in range(0,idas):
+    itens=int(input())
+    valorida = 0
+
+    for item in range(0,itens):
+        pi,qtitem=input().split()
+        valorida+=(float(pi) * int(qtitem))
+    print('R$ {:.2f}'.format(valorida))

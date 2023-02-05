@@ -1,0 +1,11 @@
+sapo,pedra=input().split()
+sapo=int(sapo)
+pedra=int(pedra)
+
+lista=[0]*pedra
+
+for x in range(sapo):
+  pulo=int(input())
+  for y in range(0,pedra,pulo):
+    lista[y]=1  
+print(*lista)

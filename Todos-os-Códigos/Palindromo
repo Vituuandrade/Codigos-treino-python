@@ -1,0 +1,12 @@
+frase=str(input()).strip().upper()
+palavras=frase.split()
+juntar=''.join(palavras)
+reverse=''
+for g in range(len(juntar) -1, -1, -1):
+  reverse +=juntar[g]
+
+if juntar==reverse:
+  print ("Palindromo")
+else:
+  print ("!Palindromo")
+  

@@ -1,0 +1,24 @@
+c=int(input())
+a=input().split()
+b=input().split()
+total_a=0
+total_b=0
+
+for i in range(c):
+    total_a+=int(a[i])
+    
+for i in range(c):
+    total_b+=int(b[i])
+
+if (total_a==total_b or (total_a>21 and total_b>21)):
+    print("Empate.")
+elif (total_a!=21 and total_b!=21):
+    if ((total_a<21 and total_b>21) or (total_a<21 and total_a>total_b)):
+        print("Jogador A vence com", total_a,"pontos.")
+    else:
+        print("Jogador B vence com", total_b,"pontos.")
+else:
+    if (total_a==21):
+        print("Jogador A vence com BlackJack.")
+    else:
+        print("Jogador B vence com BlackJack.")

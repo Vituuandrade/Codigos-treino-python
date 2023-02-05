@@ -1,0 +1,15 @@
+t=int(input())
+p=int(input())
+while True:
+ while p<t:
+  p=int(input())
+  if p==0:
+   break
+ if p>t:
+  print("ALARME")
+ else:
+  print("O Havai pode dormir tranquilo")
+ if p==0:
+    break
+ else:
+    break

@@ -1,0 +1,13 @@
+qtcintos, npcinto = input().split()
+
+maiorpoder = 0
+
+for cinto in range(int(qtcintos)):
+  podertotalatual = 0
+  podertodaspocoes = []
+  podertodaspocoes = input().split()
+  for x in range(int(npcinto)):
+    podertotalatual += int(podertodaspocoes[x])
+  if podertotalatual > maiorpoder:
+    maiorpoder = podertotalatual
+print(maiorpoder)

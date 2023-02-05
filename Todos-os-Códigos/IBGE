@@ -1,0 +1,15 @@
+p=int(input())
+h=0
+m=0
+c=0
+while c<p:
+  x=int(input())
+  if x==1:
+    h+=1
+  elif x==2:
+    m+=1
+  c+=1
+  
+print(h)
+print(m)
+    

@@ -1,0 +1,8 @@
+qnt_n=int(input())
+for vezes in range (qnt_n):
+  nome=(input()).split()
+  for i in range(len(nome)-1):
+    if nome[i] not in ["de","da"]:
+      print((nome[i][0]).title(),end=". ")
+  print(nome[-1].title())
+  print()
